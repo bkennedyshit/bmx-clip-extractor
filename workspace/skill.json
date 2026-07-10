@@ -1,0 +1,7 @@
+{
+  "name": "extract-bmx-riding-clips",
+  "version": "1.0.0",
+  "description": "Extract multiple lossless horizontal riding clips from long BMX source videos with local Qwen vision models.",
+  "author": "NEPA AI",
+  "license": "MIT"
+}

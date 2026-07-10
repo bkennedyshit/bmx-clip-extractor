@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Reference / dev-only material — not part of the shipped product
+look-thru/
