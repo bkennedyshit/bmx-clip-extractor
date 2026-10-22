@@ -86,6 +86,11 @@ manual, fakie, or earlier 180 happened farther back in the line. Recut mode
 does not require CUDA because it only reads the scan log and asks FFmpeg to make
 new stream-copy cuts.
 
+## Example output
+
+![A folder of extracted riding clips, one file per attempt, named by session and clip number](docs/images/example-output.png)
+*Output folder from a real run: hours of footage reduced to one short clip per riding attempt.*
+
 ## History
 Latest edition of my BMX footage tooling: BMX_AI (2025-10) -> bmx-vision-model (2026-05) -> nepa-bmx-skill (2026-07) -> **bmx-clip-extractor (2026-07, current)**.
 
