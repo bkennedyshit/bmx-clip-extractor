@@ -1,12 +1,3 @@
-> **Superseded (2026-10).** This was an earlier stage of my BMX footage tooling: *2026-07 - BMX Clip Extractor (local Qwen riding-clip extractor)*.
-> The current, maintained version is the **bmx-riding skill editor** in
-> **[creator-pipeline](https://github.com/bkennedyshit/creator-pipeline)** - generalized to any footage
-> (riding, gym, B-roll, time-lapse, livestreams), two-pass vision, bit-exact clip cuts, and one-click
-> DaVinci Resolve projects. This repo is kept for history only.
->
-> Lineage: BMX_AI (2025-10) -> bmx-vision-model (2026-05) -> nepa-bmx-skill (2026-07) -> bmx-clip-extractor (2026-07) -> **creator-pipeline (2026-10, current)**
-# BMX Riding Extractor
-
 First-stage horizontal BMX footage extraction using local Qwen vision models
 and lossless FFmpeg cuts.
 
@@ -94,3 +85,9 @@ for cases where the model catches the halfcab or rollout but the setup trick,
 manual, fakie, or earlier 180 happened farther back in the line. Recut mode
 does not require CUDA because it only reads the scan log and asks FFmpeg to make
 new stream-copy cuts.
+
+## History
+Latest edition of my BMX footage tooling: BMX_AI (2025-10) -> bmx-vision-model (2026-05) -> nepa-bmx-skill (2026-07) -> **bmx-clip-extractor (2026-07, current)**.
+
+## License
+Copyright (C) 2026 Billy Kennedy. Source-available under the **[PolyForm Noncommercial License 1.0.0](LICENSE)**: noncommercial use only; commercial use requires a license from the author. Brand names are not licensed - see [NOTICE](NOTICE).
